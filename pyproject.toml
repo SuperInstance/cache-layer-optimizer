@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cache-layer-optimizer"
+version = "0.1.0"
+description = "Multi-tier cache optimization strategies — L1/L2/L3 hierarchy with intelligent eviction, placement, and tuning"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

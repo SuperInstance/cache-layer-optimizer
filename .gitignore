@@ -4,6 +4,12 @@
 *.pdb
 Cargo.lock
 
+# Python
+__pycache__/
+*.egg-info/
+*.pyc
+.dist/
+
 # IDEs
 .idea/
 .vscode/
@@ -21,6 +27,11 @@ coverage/
 
 # Benchmark results
 target/criterion/
+
+# Python dist
+dist/
+build/
+*.egg
 
 # profiling
 flamegraph.svg
